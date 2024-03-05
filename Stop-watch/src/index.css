@@ -1,0 +1,77 @@
+.watch-out{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 128, 114, 0.781);
+}
+
+.stop-watch{
+    border-radius: .5rem;
+    padding: 30px 30px;
+    height: fit-content;
+    background-color: #000000e8;
+    box-shadow: 0px 0px 20px #000000b4;
+}
+.stop-watch h2{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.display{
+    margin-top: 15px;
+    width: 100%;
+    text-shadow: 2px 2px 12px #fff;
+    text-align: center;
+    font-size: 12vw;
+    color: #fff;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.controls button{
+    text-align: center;
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 19px;
+    border-radius: .3rem;
+    border: none;
+    font-weight:bold;
+    cursor: pointer;
+    color: #fff;
+}
+
+.start-button{
+    background-color: rgb(10, 244, 10);
+    box-shadow: 0px 0px 15px rgb(10, 244, 10);
+}
+
+.stop-button{
+    background-color: red;
+    box-shadow: 0px 0px 15px red;
+}
+
+.reset-button{
+    background-color: rgba(0, 255, 255, 0.742);
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.742);
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.resume-button{
+    background-color: rgba(255, 0, 234, 0.705);
+    box-shadow: 0px 0px 15px rgba(255, 0, 234, 0.705);
+}
+
+
+
+
+
